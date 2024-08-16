@@ -2,3 +2,8 @@
 */.ipynb_checkpoints/*
 SRCNN/data/train_mscale.h5
 SRCNN/.ipynb_checkpoints/SRCNN-checkpoint.ipynb
+ViT/data/stl10_binary.tar.gz
+ViT/data/stl10_binary/test_X.bin
+ViT/data/stl10_binary/unlabeled_X.bin
+ViT/data/stl10_binary/train_X.bin
+ViT/models/weights.pt
