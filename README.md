@@ -32,3 +32,11 @@ Model Implementation in paper with PyTorch
 - Abstract
   - This paper introduces the Vision Transformer (ViT), a model that applies the transformer architecture, originally designed for natural language processing tasks, to image classification. The core idea is to split an image into a sequence of fixed-size patches, treat these patches as tokens similar to words in NLP, and process them with a standard transformer encoder. The ViT model achieves state-of-the-art performance on multiple image recognition benchmarks when trained on large-scale datasets, demonstrating that transformers can be highly effective in computer vision tasks when provided with sufficient data. The paper highlights the scalability of the transformer architecture and its potential to replace convolutional neural networks (CNNs) in various vision applications.
 - Implemented code URL: https://github.com/PSLeon24/Paper-Implementation-with-PyTorch/blob/main/ViT/ViT.ipynb
+
+## 5. FGSM Attack
+- Paper title: Explaining and Harnessing Adversarial Examples
+- Category: Adversarial Example
+- Paper URL: https://arxiv.org/pdf/1412.6572
+- Abstract
+  - This paper presents the Fast Gradient Sign Method (FGSM), a simple yet effective technique for creating adversarial examples that can fool neural networks. By slightly altering the input data in the direction that increases the model's error, FGSM highlights how even minor perturbations can cause significant misclassification, exposing vulnerabilities in the robustness of neural networks. The method provides key insights into the security challenges faced by machine learning models.
+- Implemented code URL: To be added.
