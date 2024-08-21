@@ -7,3 +7,4 @@ ViT/data/stl10_binary/test_X.bin
 ViT/data/stl10_binary/unlabeled_X.bin
 ViT/data/stl10_binary/train_X.bin
 ViT/models/weights.pt
+Data/cifar-10-python.tar.gz
