@@ -39,7 +39,7 @@ Model Implementation with PyTorch in paper
 ## 5. GoogLeNet
 - Paper title: Going deeper with convolutions
 - Category: Image Classification
-- Paper URL: [https://](https://arxiv.org/pdf/1409.4842)
+- Paper URL: https://arxiv.org/pdf/1409.4842
 - Abstract
   - To be added.
 - Implemented code URL: https://github.com/PSLeon24/Paper-Implementation-with-PyTorch/blob/main/GoogLeNet/GoogLeNet.ipynb
