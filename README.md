@@ -1,5 +1,5 @@
 # Paper-Implementation-with-PyTorch
-Model Implementation in paper with PyTorch
+Model Implementation with PyTorch in paper
 
 ## 1. SRCNN
 - Paper title: Image Super-Resolution Using Deep Convolutional Networks
