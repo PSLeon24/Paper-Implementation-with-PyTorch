@@ -16,6 +16,7 @@ Model Implementation in paper with PyTorch
 - Abstract
   - This paper introduces AlexNet, a deep convolutional neural network that achieved breakthrough results in the ImageNet Large Scale Visual Recognition Challenge (ILSVRC) 2012. The model significantly improved the accuracy of image classification tasks by employing a deeper and wider architecture compared to previous methods. Key innovations include the use of Rectified Linear Units (ReLU) for nonlinearity, dropout for regularization, and data augmentation techniques. AlexNet's success demonstrated the effectiveness of deep learning in large-scale image recognition tasks, paving the way for further advancements in the field.
 - Implemented code URL: https://github.com/PSLeon24/Paper-Implementation-with-PyTorch/blob/main/AlexNet/CNN%20-%20AlexNet.ipynb
+- Core keyword: fundamental CNN architecture, filter(=kernel), convolutional layer, fully connected layer
 
 ## 3. ResNet
 - Paper title: Deep Residual Learning for Image Recognition
@@ -24,6 +25,7 @@ Model Implementation in paper with PyTorch
 - Abstract
   - This paper introduces ResNet (Residual Networks), a deep convolutional neural network that addresses the problem of training very deep networks by using a novel architecture called "residual learning." The key idea is to add shortcut connections (or skip connections) that bypass one or more layers, allowing the network to learn residual functions with reference to the layer inputs. This significantly eases the training of deep networks and allows the construction of networks with hundreds or even thousands of layers, achieving state-of-the-art performance on image classification tasks. ResNet won the 1st place in several tracks of the ILSVRC 2015 competition and has become a foundational model in the field of deep learning.
 - Implemented code URL: https://github.com/PSLeon24/Paper-Implementation-with-PyTorch/blob/main/ResNet/ResNet.ipynb
+- Core keyword: residual connection(skip connection)
 
 ## 4. ViT
 - Paper title: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
@@ -32,8 +34,18 @@ Model Implementation in paper with PyTorch
 - Abstract
   - This paper introduces the Vision Transformer (ViT), a model that applies the transformer architecture, originally designed for natural language processing tasks, to image classification. The core idea is to split an image into a sequence of fixed-size patches, treat these patches as tokens similar to words in NLP, and process them with a standard transformer encoder. The ViT model achieves state-of-the-art performance on multiple image recognition benchmarks when trained on large-scale datasets, demonstrating that transformers can be highly effective in computer vision tasks when provided with sufficient data. The paper highlights the scalability of the transformer architecture and its potential to replace convolutional neural networks (CNNs) in various vision applications.
 - Implemented code URL: https://github.com/PSLeon24/Paper-Implementation-with-PyTorch/blob/main/ViT/ViT.ipynb
+- Core keyword: patch
+  
+## 5. GoogLeNet
+- Paper title: Going deeper with convolutions
+- Category: Image Classification
+- Paper URL: [https://](https://arxiv.org/pdf/1409.4842)
+- Abstract
+  - To be added.
+- Implemented code URL: https://github.com/PSLeon24/Paper-Implementation-with-PyTorch/blob/main/GoogLeNet/GoogLeNet.ipynb
+- Core keyword: inception module, 1x1 convolution(to reduce dimensions)
 
-## 5. FGSM Attack
+## 6. FGSM Attack
 - Paper title: Explaining and Harnessing Adversarial Examples
 - Category: Adversarial Example
 - Paper URL: https://arxiv.org/pdf/1412.6572
