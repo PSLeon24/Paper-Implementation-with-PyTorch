@@ -16,7 +16,7 @@ Model Implementation with PyTorch in paper
 - Abstract
   - This paper introduces AlexNet, a deep convolutional neural network that achieved breakthrough results in the ImageNet Large Scale Visual Recognition Challenge (ILSVRC) 2012. The model significantly improved the accuracy of image classification tasks by employing a deeper and wider architecture compared to previous methods. Key innovations include the use of Rectified Linear Units (ReLU) for nonlinearity, dropout for regularization, and data augmentation techniques. AlexNet's success demonstrated the effectiveness of deep learning in large-scale image recognition tasks, paving the way for further advancements in the field.
 - Implemented code URL: https://github.com/PSLeon24/Paper-Implementation-with-PyTorch/blob/main/AlexNet/CNN%20-%20AlexNet.ipynb
-- Core keyword: fundamental CNN architecture, filter(=kernel), convolution layer, fully connected layer
+- Core keyword: fundamental CNN architecture, filter(=kernel), stride, padding, maxpooling, convolution layer, fully connected layer
 
 ## 3. ResNet
 - Paper title: Deep Residual Learning for Image Recognition
