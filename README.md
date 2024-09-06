@@ -51,5 +51,6 @@ Model Implementation with PyTorch in paper
 - Paper URL: https://arxiv.org/pdf/1412.6572
 - Abstract
   - This paper presents the Fast Gradient Sign Method (FGSM), a simple yet effective technique for creating adversarial examples that can fool neural networks. By slightly altering the input data in the direction that increases the model's error, FGSM highlights how even minor perturbations can cause significant misclassification, exposing vulnerabilities in the robustness of neural networks. The method provides key insights into the security challenges faced by machine learning models.
-- Implemented code URL: https://github.com/PSLeon24/Paper-Implementation-with-PyTorch/blob/main/FGSM/FGSM.ipynb
+- Implemented code URL1: https://github.com/PSLeon24/Paper-Implementation-with-PyTorch/blob/main/FGSM/FGSM.ipynb
+- Implemented code URL2(easy): https://github.com/PSLeon24/Paper-Implementation-with-PyTorch/blob/main/FGSM-2/FGSM_Practice.ipynb
 - Core keywords: adversarial examples, adversarial attack, perturbation
